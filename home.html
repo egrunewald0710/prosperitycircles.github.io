@@ -41,22 +41,41 @@
 
       <div class="row">
         <div class="column">
-          <img src="images/home2.jpg" alt="" style="width:100%">
+          <img src="images/home2.jpg" alt="" style="width:80%">
         </div>
         <div class="column">
-          <img src="images/home3.jpeg" alt="" style="width:100%">
+          <img src="images/home3.jpeg" alt="" style="width:80%">
         </div>
         <div class="column">
-          <img src="images/home4.png" alt="" style="width:100%">
+          <img src="images/home4.png" alt="" style="width:80%">
         </div>
       </div> <br>
 
       <font size="8" face="Copperplate" color="white">
       <h1"><marquee behavior="20" direction="right" color="black">HELP STOP POVERTY!!</marquee></h1>
       </font>
-      <div class="footer">
-        <p align="middle">All Rights Reserved. Prosperity Circles<br>
-           Copyright 2023.</p>
+
+
+      <div class="quote-of-the-day">
+        <h3 align="center">Quote of the Day</h3>
+        <blockquote>
+          <p id="quote-text">"The best way to predict the future is to create it." - Peter Drucker</p>
+          <p id="quote-author">- Peter Drucker</p>
+        </blockquote>
+        <button id="new-quote-button" onclick="generateRandomQuote()">Get Another Quote</button>
       </div>
+
+      <div class="newsletter-section">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Stay informed about our latest initiatives and events.</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+      <footer style="text-align: center;background-color: white;">
+        ©2023  <b>Beyond Borders</b>. All Rights Reseved
+        </footer>
 </body>
 </html>
