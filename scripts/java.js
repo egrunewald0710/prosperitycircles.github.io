@@ -19,6 +19,10 @@ const quotes = [
       text:"Take one step at a time.",
       author:"Ethan Grunewald",
     },
+    {
+        text:"Poverty is the parent of revolution and crime.",
+        author:"Aristotle"
+    },
   ];
 
   function generateRandomQuote() {
