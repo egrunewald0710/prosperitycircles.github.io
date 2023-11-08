@@ -1,4 +1,4 @@
-const quotes = [
+const quotes = [ /*adding quotes*/
     {
       text: "The best way to predict the future is to create it.",
       author: "Peter Drucker",
@@ -32,6 +32,4 @@ const quotes = [
     document.getElementById("quote-author").textContent = `- ${quote.author}`;
   }
 
-  generateRandomQuote();
-
-  
+  generateRandomQuote(); /*this will generate a new quote when pressing the button*/ 
