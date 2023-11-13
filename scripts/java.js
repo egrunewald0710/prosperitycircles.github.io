@@ -33,3 +33,12 @@ const quotes = [ /*adding quotes*/
   }
 
   generateRandomQuote(); /*this will generate a new quote when pressing the button*/ 
+
+  function clearForm() {
+    document.getElementById("contactForm").reset();
+}
+
+function giveMessage()
+{
+    alert ('Thank You.')
+}
